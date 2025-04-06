@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Environment variables and secrets
+*.env
+.env.*
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Machine learning artifacts
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Matplotlib figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# PyTorch Lightning cache
+lightning_logs/
+
+# Data files
+data/
+*.csv
+*.tsv
+*.zip
+*.gz
+*.tar
+*.npy
+*.npz
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log

@@ -1,1 +1,2 @@
-# customer_churn_prediction
+# Churnalyze
+Customer churn prediction in flask
